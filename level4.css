@@ -4,6 +4,10 @@ html {
 	margin: 0 auto;
 }
 
+li {
+	margin-bottom: 0.5rem;
+}
+
 .main-title {
 	font-family: Montserrat;
 	font-size: 55px;
@@ -50,4 +54,22 @@ table {
 td {
 	padding: 8px 12px;
 	border: 1px solid black;
+}
+
+.subject-titles {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.table-list {
+	list-style: none;
+}
+
+.table-list-headings {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+.table-list-headings > ul {
+	font-size: 1rem;
 }
